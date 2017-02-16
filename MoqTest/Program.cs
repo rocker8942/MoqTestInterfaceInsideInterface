@@ -29,6 +29,17 @@ namespace MoqTest
         {
             var result = _foo.Bar.DoBar(id, pass);
 
+            // do something with result
+
+            return result;
+        }
+
+        public string RunSimple()
+        {
+            var result = _foo.DoFoo();
+
+            // do something with result
+
             return result;
         }
     }
